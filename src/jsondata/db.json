@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "name": "pawan kumar",
+      "username": "pawan kumar",
+      "email": "pawan30jul@gmail.com",
+      "company": "Smc Insurance",
+      "id": 1
+    },
+    {
+      "name": "Tarun kumar",
+      "username": "tarunrikhari",
+      "email": "tarunrikhari@gmail.com",
+      "company": "IBS college",
+      "id": 2
+    }
+  ]
+}
