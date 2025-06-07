@@ -128,7 +128,7 @@ const CreateUser = () => {
                             onChange={handleChange}
                             placeholder="Enter your full name"
                         />
-                        <p className='text-danger mb-0'>{formData.error.name}</p>
+                        {formData.error.name && <p className='text-danger mb-0'>{formData.error.name}</p>}
                     </div>
 
                     <div className="mb-3">
@@ -142,7 +142,7 @@ const CreateUser = () => {
                             onChange={handleChange}
                             placeholder="Choose a username"
                         />
-                        <p className='text-danger mb-0'>{formData.error.username}</p>
+                        {formData.error.username && <p className='text-danger mb-0'>{formData.error.username}</p>}
                     </div>
 
                     <div className="mb-3">
@@ -156,7 +156,7 @@ const CreateUser = () => {
                             onChange={handleChange}
                             placeholder="Enter your email"
                         />
-                        <p className='text-danger mb-0'>{formData.error.email}</p>
+                        {formData.error.email && <p className='text-danger mb-0'>{formData.error.email}</p>}
                     </div>
 
                     <div className="mb-3">
@@ -170,7 +170,7 @@ const CreateUser = () => {
                             onChange={handleChange}
                             placeholder="Enter your company name"
                         />
-                        <p className='text-danger'>{formData.error.company}</p>
+                        {formData.error.company && <p className='text-danger'>{formData.error.company}</p>}
                     </div>
 
                     <button type="submit" className="btn btn-primary w-100 rounded-pill py-2 text-uppercase">Submit</button>
